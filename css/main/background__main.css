@@ -1,0 +1,46 @@
+.background__wave {
+  position: fixed;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+}
+
+.background__blob3,
+.background__blob2 {
+  position: absolute;
+  width: 30%;
+}
+
+.background__blob2 {
+  top: 60%;
+  left: 70%;
+  opacity: 0.2;
+}
+
+.background__blob3 {
+  top: 40%;
+  left: 67%;
+  opacity: 0.4;
+  transform: rotate(-80deg);
+}
+
+.background__blob__skill2,
+.background__blob__skill {
+  position: absolute;
+  width: 300px;
+  height: auto;
+}
+
+.background__blob__skill2 {
+  opacity: 0.2;
+  top: 110%;
+  left: 67%;
+}
+
+.background__blob__skill {
+  opacity: 0.3;
+  top: 130%;
+  left: 73%;
+  transform: rotate(-80deg);
+}

@@ -1,0 +1,26 @@
+.menu {
+  align-items: center;
+  display: flex;
+  height: 60px;
+  justify-content: flex-end;
+  text-decoration: none;
+}
+
+.container__menu {
+  display: inline-block;
+  margin-right: 20px;
+  border-right: 1px solid silver;
+}
+
+.menu__text {
+  display: inline-block;
+  font-size: 15px;
+  font-family: "Jost", sans-serif;
+  padding: 5px;
+  padding-right: 10px;
+}
+
+.text__menu__header {
+  color: black;
+  text-decoration: none;
+}

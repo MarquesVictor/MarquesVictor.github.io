@@ -1,0 +1,54 @@
+.central__container {
+  display: grid;
+  grid-area: sinop;
+  margin-top: 10vh;
+  grid-template: auto/1fr 1fr;
+  grid-template-areas: "img texto";
+}
+
+.central__img {
+  width: 600px;
+  margin-left: 5vw;
+  grid-area: img;
+}
+
+.apresentation {
+  grid-area: texto;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  z-index: 3;
+}
+
+.apresentation__tittle {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #0377c4;
+  padding: 10px;
+}
+
+.apresentation__subtittle {
+  font-size: 40px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+  color: white;
+  background: #0377c4;
+  display: inline;
+  padding: 5px 10px;
+}
+
+.apresentation__sinops {
+  margin-top: 40px;
+}
+
+.apresentation__email {
+  margin-top: 40px;
+  margin-bottom: -3px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.apresentation__sourceemail {
+  display: inline;
+}

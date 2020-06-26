@@ -1,0 +1,32 @@
+
+.interation__skill {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-bottom: 1px solid silver;
+  /* box-shadow: 0 5px 15px -5px #00000070; */
+  z-index: 5;
+}
+
+.interation__skill__react_native,
+.interation__skill__react,
+.interation__skill__php,
+.interation__skill__html,
+.interation__skill__node,
+.interation__skill__git,
+.interation__skill__python,
+.interation__skill__js {
+  font-size: 20px;
+  font-weight: normal;
+  color: black;
+  padding-left: 10px;
+}
+
+.interation__containter {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-right: 3vw;
+}
+
+

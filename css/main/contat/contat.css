@@ -1,0 +1,34 @@
+.contact__container__tittle {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+  margin-right: 100vh;
+}
+
+.contact__tittle {
+  border-left: 20px solid rgb(245, 215, 110);
+  padding: 10px;
+}
+
+.container__contat__subtittle {
+    margin-top: 3vh;
+    margin-left: 14vw;
+}
+
+.contat__subtittle {
+    font-size: 30px;
+}
+
+.contat_email{
+  font-size: 50px;
+  margin-top: 20px;
+  color: white;
+  display: inline-block;
+  padding: 10px;
+  background-color: rgb(245, 215, 110) ;
+}
+
+.button__scroll__contat{
+  color: rgb(245, 215, 110);
+}
