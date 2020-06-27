@@ -7,7 +7,7 @@
 }
 
 .contact__tittle {
-  border-left: 20px solid rgb(245, 215, 110);
+  border-left: 20px solid rgb(109, 167, 255);
   padding: 10px;
 }
 
@@ -26,9 +26,9 @@
   color: white;
   display: inline-block;
   padding: 10px;
-  background-color: rgb(245, 215, 110) ;
+  background-color: rgb(109, 167, 255);
 }
 
 .button__scroll__contat{
-  color: rgb(245, 215, 110);
+  color: rgb(109, 167, 255);
 }
